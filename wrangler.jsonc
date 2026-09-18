@@ -1,6 +1,10 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "still-here",
+  "compatibility_date": "2026-09-18",
+  "assets": {
+    "directory": "."
+  },
   "observability": {
     "traces": {
       "enabled": true
